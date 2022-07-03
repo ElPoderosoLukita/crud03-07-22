@@ -1,0 +1,8 @@
+CREATE DATABASE crud;
+
+CREATE TABLE productos(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    precio INT NOT NULL,
+    vendedor VARCHAR(255) NOT NULL
+);
